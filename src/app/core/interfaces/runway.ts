@@ -1,0 +1,30 @@
+export interface Runway {
+    ApproachLights: string;
+    CenterLights: string;
+    CenterRed: string;
+    ClosedLanding: string;
+    ClosedTakeoff: string;
+    Def: string;
+    EdgeLights: string;
+    EndLights: string;
+    FSStartLat: number;
+    FSStartLon: number;
+    Hdg: number;
+    ILSFreq: string;
+    ILSHdg: string;
+    ILSid: string;
+    ILSslope: number;
+    Lat: number;
+    LeftVASI: string;
+    Len: number;
+    Lon: number;
+    PatternAltitude: number;
+    PatternLanding: string;
+    PatternTakeOff: string;
+    REIL: string;
+    RightVASI: string;
+    Strobes: number;
+    ThresholdOffset: number;
+    Touchdown: string;
+    id: string;
+}
